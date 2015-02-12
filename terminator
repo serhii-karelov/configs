@@ -1,0 +1,22 @@
+[global_config]
+  title_transmit_bg_color = "#19713f"
+  inactive_color_offset = 0.54
+  title_inactive_bg_color = "#909090"
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+    foreground_color = "#00ff00"
+  [[green]]
+    background_image = None
+    foreground_color = "#00ff00"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
